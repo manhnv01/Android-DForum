@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- màu chính-->
+    <color name="main_color">#0e8ef1</color>
+    <!-- màu báo lỗi-->
+    <color name="error_color">#FF0000</color>
+
+    <!-- màu vàng-->
+    <color name="yellow_color">#F4C023</color>
+
+    <!-- màu xám-->
+    <color name="gray_color">#D6D6D6</color>
+    <color name="gray_color_opacity">#B3D6D6D6</color>
+    <color name="gray_color_more">#B6B5B5</color>
+    <color name="gray_max">#66676b</color>
+    <color name="gray_max_opacity_70">#B366676B</color>
+
+    <!-- màu đen làm mờ-->
+    <color name="black_opacity">#99000000</color>
+
+    <!--    background comment, button cancel-->
+    <color name="gray">#f1f2f6</color>
+
+    <!--    background linlear, notify-->
+    <color name="bg_notify">#e7f3ff</color>
+
+    <color name="green">#00CF09</color>
+
+    <!--    background darkmode-->
+    <color name="bg_dark">#242527</color>
+
+</resources>

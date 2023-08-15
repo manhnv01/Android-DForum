@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.account.UpdateNameActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbUpdateProfile"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimaryVariant"
+        android:elevation="@dimen/_5sdp"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:navigationIcon="@drawable/round_arrow_back_black_24"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="@string/edit_name"
+        app:titleTextColor="?attr/colorOnSecondary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:text="@string/nick_name"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvLengthNickName"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:text="@string/length_nickname"
+                    android:gravity="center_vertical|end"
+                    android:textColor="@color/gray_color_more"
+                    android:textSize="@dimen/_14sdp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edtNickName"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:background="@drawable/edit_text_radius_5"
+                android:inputType="text"
+                android:maxLength="25"
+                android:textColorHint="@color/gray_color"
+                tools:ignore="Autofill,LabelFor" />
+
+            <TextView
+                android:id="@+id/tvErrorName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:text="@string/same_name"
+                android:textColor="@color/error_color"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="end"
+                android:orientation="horizontal"
+                android:paddingEnd="@dimen/_15sdp"
+                tools:ignore="RtlSymmetry">
+
+                <Button
+                    android:id="@+id/btnCancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:backgroundTint="@color/gray"
+                    android:elevation="@dimen/_10sdp"
+                    android:letterSpacing="0.02"
+                    android:text="@string/cancel"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold"
+                    android:translationZ="@dimen/_3sdp" />
+
+                <Button
+                    android:id="@+id/btnUpdateName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:elevation="@dimen/_10sdp"
+                    android:letterSpacing="0.02"
+                    android:textColor="@color/white"
+                    android:text="@string/update"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold"
+                    android:translationZ="@dimen/_3sdp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DForum" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/main_color</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/main_color</item>
+        <item name="colorSecondaryVariant">@color/main_color</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="colorAccent">@color/black_opacity</item>
+        <item name="colorOnSurface">@color/gray_max</item>
+
+        <!--        màu icon và nền-->
+        <item name="colorOnSurfaceVariant">@color/black</item>
+        <item name="colorBackgroundFloating">@color/white</item>
+
+        <item name="colorContainer">@color/gray</item>
+        <item name="colorOnBackground">@color/bg_notify</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!--        font mặc định-->
+        <item name="android:fontFamily">@font/helvetica_neue_regular</item>
+
+        <!--        màu chữ mặc định-->
+        <item name="android:textColor">@color/black</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="ToolbarTitleStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
